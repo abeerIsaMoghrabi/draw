@@ -1,0 +1,60 @@
+
+.icon-b{
+    padding-top: 20px;
+
+}
+.bar{
+    border-right: 1px solid #dddddd;
+    height: 90px;
+
+
+    font-size: 160%;
+
+
+}
+.header{
+    border-bottom: 1px solid #dddddd;
+}
+.logo{
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 90px;
+    display: inline-block;
+    background-position: center;
+}
+.logo-container{
+
+
+
+
+
+    padding-left: 20px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+}
+.header-list{
+    padding-top: 40px;
+    padding-left: 30px;
+    display: inline-block;
+
+}
+.list-item{
+    text-transform: capitalize;
+    padding-left: 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+
+}

@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.icon-b{
+    padding-top: 40px;
+
+}
+.bar{
+    border-right: 1px solid #dddddd;
+    height: 90px;
+    width: 8%;
+
+    font-size: 160%;
+    display: inline-block;
+
+}
+.header{
+    border-bottom: 1px solid #dddddd;
+}
+.logo{
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   width: 100%;
+    height: 90px;
+    display: inline-block;
+    background-position: center;
+}
+.logo-container{
+
+    width: 10%;
+    height: 90px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+ul{
+    list-style: none;
+}
+a{
+    color:#343e5c;
+}
+.header-list{
+    padding-top: 40px;
+    padding-left: 30px;
+    display: inline-block;
+
+}
+.list-item{
+    text-transform: capitalize;
+    padding-left: 15px;
+
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.shopping-chart-count{
+   padding-top: 35px;
+
+    display: inline-block;
+
+}
+.shopping{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 5px;
+}
+.cart{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 13px;
+
+
+}
+.count{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    background-color: #e3e8f0;
+    border-radius: 50%;
+    text-align: center;
+
+
+}
+.right-div{
+    display: inline-block;
+}
+.signin{
+display: inline-block;
+    padding-left: 20px;
+}
+.signin-btn{
+    display: inline-block;
+    text-transform: uppercase;
+    border: 2px solid #e3e8f0;
+    border-radius: 18px;
+    width: 70px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.second-list{
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-top: 20px;
+}
+.second-list-item{
+    text-transform: uppercase;
+    padding-right: 30px;
+    font-size: 13px;
+
+}
+.second-list-item a{
+    color:#b9bed1;
+    font-weight: 500;
+}
+.support-search-container{
+    display: inline-block;
+}
