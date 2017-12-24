@@ -1,3 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/joanna-kosinska-476268.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 #canv{
-    background-color: red;
+
+
+    background-color: white;
+
+}
+.trans-div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #006577;
+    opacity: 0.6;
+    width: 100%;
+    height: 600px;
+
+}
+.canv-container{
+    padding-top: 45px;
+    max-width: 500px;
+    margin: auto;
+    opacity: 1;
+}
+.size-icon{
+width: 50px;
+    height: 50px;
+    font-size: 18px;
+    color:#122b40;
+    margin: auto;
+}
+.size-icon-container{
+   padding-left:45%;
+
+}
+.size-icon:hover{
+    font-size: 23px;
+    color: #e0aa7b;
+}
+.upload-btn{
+    position: absolute;
+    top: -28px;
+    left: 0px;
+
+    border: 2px solid #2b669a;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 23px;
+    padding-left:10px;
+    padding-right: 10px;
+    color:#e0aa7b ;
+
+}
+.upload-btn:hover{
+   border-color: #aaa9a9;
 }
