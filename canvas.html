@@ -14,10 +14,10 @@
 
         <div class="canv-container">
             <label style="position: relative">
-                <input type="file" accept="image/*" onchange="preview_image(event)" style="display: none">
+                <input type="file" accept="image/*"id="fileInput" name="file" style="display: none">
                 <span class="upload-btn">choose image</span>
             </label>
-
+            <!--onchange="preview_image(event)"-->
 
             <canvas id="canv" width="500" height="500">
 
@@ -25,14 +25,14 @@
 
             </canvas>
             <div class="size-icon-container">
-            <span class="size-icon"><i class="fa fa-search-plus" aria-hidden="true"></i></span>
-            <span class="size-icon"><i class="fa fa-search-minus" aria-hidden="true"></i></span>
+                <span class="size-icon"><i class="fa fa-search-plus" aria-hidden="true"></i></span>
+                <span class="size-icon"><i class="fa fa-search-minus" aria-hidden="true"></i></span>
             </div>
         </div>
 
     </div>
 </div>
 <script  type="text/javascript" src="javascript/canvas.js"></script>
-
+<script async src="opencvjs/opencv/doc/o"  type="text/javascript"></script>
 </body>
 </html>
